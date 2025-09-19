@@ -36,7 +36,7 @@
             <span class="menu-label">Matérias</span>
         </a>
 
-        <a href="#" class="menu-btn" data-page="presenca" title="Lista de Presença">
+        <a href="<?php echo BASE_URL; ?>/public/presenca" class="menu-btn" title="Lista de Presença">
             <span class="icon">&#128197;</span>
             <span class="menu-label">Presença</span>
         </a>
@@ -155,6 +155,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="<?php echo BASE_URL; ?>/public/js/TelaHome/script.js"></script>
+    <!--<script src="<?php //echo BASE_URL; ?>/public/js/Presenca/script.js"></script>-->
 </body>
 
 </html>

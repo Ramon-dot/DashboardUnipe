@@ -39,6 +39,12 @@ class Router {
                 $controller = new DisciplinasController();
                 $controller->index();
                 break;
+            
+            case 'presenca':
+                require_once __DIR__ . '/../../app/controllers/PresencaController.php';
+                $controller = new PresencaController();
+                $controller->index();
+                break;
 
             default:
                 http_response_code(404);

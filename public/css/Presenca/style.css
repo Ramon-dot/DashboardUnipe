@@ -1,0 +1,90 @@
+body {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .attendance-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        .header-number {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        
+        .student-row {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            margin-bottom: 10px;
+            padding: 15px;
+            transition: all 0.3s ease;
+            border-left: 4px solid #3498db;
+        }
+        
+        .student-row:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .student-name {
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 0.95rem;
+        }
+        
+        .student-rgm {
+            color: #7f8c8d;
+            font-size: 0.85rem;
+        }
+        
+        .attendance-info {
+            font-size: 0.9rem;
+            color: #34495e;
+        }
+        
+        .btn-attendance {
+            background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 20px;
+            color: white;
+            font-size: 0.8rem;
+            padding: 8px 16px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-attendance:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-attendance.present {
+            background: linear-gradient(45deg, #56ab2f 0%, #a8e6cf 100%);
+        }
+        
+        .btn-attendance.absent {
+            background: linear-gradient(45deg, #ff416c 0%, #ff4b2b 100%);
+        }
+        
+        .date-badge {
+            background: linear-gradient(45deg, #ffecd2 0%, #fcb69f 100%);
+            color: #8b4513;
+            border-radius: 15px;
+            padding: 5px 12px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        
+        .attendance-counter {
+            background: linear-gradient(45deg, #a8edea 0%, #fed6e3 100%);
+            color: #2c3e50;
+            border-radius: 15px;
+            padding: 5px 12px;
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
