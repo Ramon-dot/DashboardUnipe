@@ -1,0 +1,116 @@
+body {
+            background-color: #f8f9fa;
+        }
+
+        .main-wrapper {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            width: 280px;
+            min-width: 280px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .sidebar .nav-link {
+            color: #555;
+            font-size: 0.95rem;
+            padding: 12px 20px;
+        }
+
+        .sidebar .nav-link i {
+            margin-right: 15px;
+            width: 20px; /* Alinha os textos */
+            text-align: center;
+        }
+
+        .sidebar .nav-link.active {
+            background-color: #0d6efd;
+            color: white;
+            border-radius: 0.5rem;
+        }
+        
+        .sidebar .nav-link:not(.active):hover {
+            background-color: #f1f1f1;
+            border-radius: 0.5rem;
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 2rem;
+        }
+
+        .discipline-card {
+            border-radius: 0.75rem;
+            border: 1px solid #e0e0e0;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            height: 100%;
+        }
+
+        .discipline-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        }
+        
+        .card-img-container {
+            position: relative;
+        }
+        
+        .card-img-overlay-icon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.3);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+            opacity: 0;
+            transition: opacity 0.2s ease-in-out;
+            border-top-left-radius: 0.75rem;
+            border-top-right-radius: 0.75rem;
+        }
+        
+        .discipline-card:hover .card-img-overlay-icon {
+            opacity: 1;
+        }
+
+        .card-subtitle-code {
+            font-size: 0.8rem;
+            color: #6c757d;
+        }
+        
+        .card-title {
+            font-weight: 600;
+        }
+        
+        .card-status .start-link {
+            font-weight: 500;
+            color: #198754;
+            text-decoration: none;
+        }
+        
+        .card-footer-custom {
+             padding: 1rem 1rem;
+             border-top: 1px solid #e0e0e0;
+             background-color: transparent;
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+        }
+        
+        .card-instructor {
+            font-size: 0.85rem;
+            color: #495057;
+        }
+        
+        .card-actions i {
+            margin-left: 10px;
+            cursor: pointer;
+            color: #6c757d;
+        }
