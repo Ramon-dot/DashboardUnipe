@@ -18,7 +18,7 @@
     </div>
 
     <nav class="sidebar" id="sidebar">
-        <a href="<?php echo BASE_URL; ?>/public/login" target="_blank" class="menu-login" title="Login">
+        <a href="<?php echo BASE_URL; ?>/public/login" class="menu-login" title="Login">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" style="display:block;" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2" fill="none" />
                 <path d="M4 20c0-4 4-6 8-6s8 2 8 6" stroke="currentColor" stroke-width="2" fill="none" />
@@ -26,7 +26,7 @@
             <span class="login-label">Login</span>
         </a>
 
-        <a href="#" class="menu-btn active" data-page="home" title="Página Inicial">
+        <a href="#" class="menu-btn active" data-page="home" classe="menu-nav-link" title="Página Inicial">
             <span class="icon">&#8962;</span>
             <span class="menu-label">Início</span>
         </a>
@@ -36,7 +36,7 @@
             <span class="menu-label">Matérias</span>
         </a>
 
-        <a href="<?php echo BASE_URL; ?>/public/presenca" class="menu-btn" title="Lista de Presença">
+        <a href="<?php echo BASE_URL; ?>/public/presenca" class="menu-nav-link" title="Lista de Presença">
             <span class="icon">&#128197;</span>
             <span class="menu-label">Presença</span>
         </a>
