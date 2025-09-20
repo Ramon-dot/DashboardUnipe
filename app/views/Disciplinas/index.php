@@ -18,48 +18,26 @@
             <div class="d-flex align-items-center mb-4">
                 <img src="https://via.placeholder.com/40" class="rounded-circle" alt="Avatar">
                 <div class="ms-3">
-                    <h6 class="mb-0 fw-bold">Ramon da Silva Ferreira</h6>
+                    <h6 class="mb-0 fw-bold">Usuário Logado</h6>
                 </div>
             </div>
 
             <ul class="nav nav-pills flex-column mb-auto">
                 <li class="nav-item">
-                    <a href="#" class="nav-link"><i class="bi bi-building"></i> Página da instituição</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link"><i class="bi bi-person"></i> Ramon da Silva Fer...</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link"><i class="bi bi-activity"></i> Atividade</a>
+                    <a href="#" class="nav-link"><i class="bi bi-building"></i> Home Page</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link active"><i class="bi bi-journal-bookmark-fill"></i> Disciplinas</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link"><i class="bi bi-diagram-3"></i> Organizações</a>
-                </li>
-                 <li class="nav-item">
-                    <a href="#" class="nav-link"><i class="bi bi-calendar-event"></i> Calendário</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link"><i class="bi bi-chat-left-text"></i> Mensagens</a>
-                </li>
-                 <li class="nav-item">
-                    <a href="#" class="nav-link"><i class="bi bi-sticky"></i> Notas</a>
-                </li>
-                 <li class="nav-item">
-                    <a href="#" class="nav-link"><i class="bi bi-tools"></i> Ferramentas</a>
-                </li>
+                </li> 
+                <li>
+                    <a href="#" class="nav-link"><i class="bi bi-check2-square"></i> Presença</a>
+                </li>             
             </ul>
 
             <hr>
+            
             <div>
-                 <a href="#" class="nav-link mb-2"><i class="bi bi-box-arrow-right"></i> Fazer logoff</a>
-                 <div class="d-flex justify-content-around text-muted small">
-                     <a href="#" class="text-muted text-decoration-none">Privacidade</a>
-                     <a href="#" class="text-muted text-decoration-none">Termos</a>
-                     <a href="#" class="text-muted text-decoration-none">Acessibilidade</a>
-                 </div>
+                 <a href="<?php echo BASE_URL; ?> /public/login" class="nav-link mb-2"><i class="bi bi-box-arrow-right"></i> Fazer logoff</a>
             </div>
         </aside>
 
