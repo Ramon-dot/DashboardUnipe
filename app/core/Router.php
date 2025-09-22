@@ -46,6 +46,12 @@ class Router {
                 $controller->index();
                 break;
 
+            case 'cadastro':
+                require_once __DIR__ . '/../../app/controllers/CadastroController.php';
+                $controller = new CadastroController();
+                $controller->index();
+                break;
+
             default:
                 http_response_code(404);
                 echo "Página não encontrada.";
